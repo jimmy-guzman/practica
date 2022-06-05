@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "codecov",
+    "commitlint",
+    "commitlintrc",
+    "gitzy",
+    "lcov",
+    "Parens",
+    "pnpm",
+    "practica",
+    "shellcheck",
+    "vitest",
+    "wagoid"
+  ],
+  "ignorePaths": ["pnpm-lock.yaml", ".gitignore", ".vscode"]
+}
