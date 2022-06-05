@@ -26,17 +26,8 @@ jobs:
       - name: install
         run: pnpm install --frozen-lockfile
 
-      - name: tsc
-        run: pnpm tsc
-
-      - name: lint
-        run: pnpm lint
-
-      - name: format
-        run: pnpm format
-
-      - name: test
-        run: pnpm test:coverage
+      - name: validate
+        run: pnpm validate
 
       - name: codecov
         uses: codecov/codecov-action@v3
@@ -61,8 +52,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
 
       - uses: streetsidesoftware/cspell-action@v2.0.1
         with:
