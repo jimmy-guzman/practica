@@ -12,7 +12,7 @@ specifiers:
   is-ci: 3.0.1
   lint-staged: 13.0.0
   npm-run-all: 4.1.5
-  prettier: 2.6.2
+  prettier: 2.7.1
   typescript: 4.7.3
   vitest: 0.13.1
 
@@ -22,13 +22,13 @@ devDependencies:
   c8: 7.11.3
   commitlint: 17.0.2
   eslint: 8.17.0
-  eslint-config-jimmy-guzman: 5.0.0_fbjqqrcmu5kf5fxbq7jfq7ql3a
+  eslint-config-jimmy-guzman: 5.0.0_u7622vc7cwoalnkagekejtw7ge
   gitzy: 3.2.0
   husky: 8.0.1
   is-ci: 3.0.1
   lint-staged: 13.0.0
   npm-run-all: 4.1.5
-  prettier: 2.6.2
+  prettier: 2.7.1
   typescript: 4.7.3
   vitest: 0.13.1_c8@7.11.3
 
@@ -1377,7 +1377,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-jimmy-guzman/5.0.0_fbjqqrcmu5kf5fxbq7jfq7ql3a:
+  /eslint-config-jimmy-guzman/5.0.0_u7622vc7cwoalnkagekejtw7ge:
     resolution: {integrity: sha512-KPmyoeO/pcsYUqFbUjHSLLmYwZU5SKqtBEkTOdIYhbQyXkHVqPwrXU9ao6492EX6YUt0I8TtgtIyIY5JNvqMng==}
     engines: {node: '>= 12'}
     peerDependencies:
@@ -1396,7 +1396,7 @@ packages:
       eslint-plugin-react: 7.30.0_eslint@8.17.0
       eslint-plugin-react-hooks: 4.5.0_eslint@8.17.0
       eslint-plugin-testing-library: 5.5.1_ud6rd4xtew5bv4yhvkvu24pzm4
-      prettier: 2.6.2
+      prettier: 2.7.1
       typescript: 4.7.3
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
@@ -2899,8 +2899,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.6.2:
-    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
+  /prettier/2.7.1:
+    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
