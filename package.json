@@ -30,7 +30,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "17.0.2",
     "@types/node": "16.11.38",
-    "c8": "7.11.3",
+    "c8": "7.14.0",
     "commitlint": "17.0.2",
     "eslint": "8.17.0",
     "eslint-config-jimmy-guzman": "5.0.0",
