@@ -8,7 +8,7 @@ specifiers:
   eslint: 8.17.0
   eslint-config-jimmy-guzman: 5.0.0
   gitzy: 3.2.0
-  husky: 8.0.1
+  husky: 8.0.3
   is-ci: 3.0.1
   lint-staged: 13.0.0
   npm-run-all: 4.1.5
@@ -24,7 +24,7 @@ devDependencies:
   eslint: 8.17.0
   eslint-config-jimmy-guzman: 5.0.0_fbjqqrcmu5kf5fxbq7jfq7ql3a
   gitzy: 3.2.0
-  husky: 8.0.1
+  husky: 8.0.3
   is-ci: 3.0.1
   lint-staged: 13.0.0
   npm-run-all: 4.1.5
@@ -903,8 +903,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
-      is-text-path: 1.0.1
       JSONStream: 1.3.5
+      is-text-path: 1.0.1
       lodash: 4.17.21
       meow: 8.1.2
       split2: 3.2.2
@@ -2034,8 +2034,8 @@ packages:
     engines: {node: '>=12.20.0'}
     dev: true
 
-  /husky/8.0.1:
-    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
+  /husky/8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
