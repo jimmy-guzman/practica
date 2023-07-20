@@ -53,7 +53,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: streetsidesoftware/cspell-action@v2.0.1
+      - uses: streetsidesoftware/cspell-action@v2.26.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN}}
           inline: error
