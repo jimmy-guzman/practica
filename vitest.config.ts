@@ -1,11 +1,10 @@
-// eslint-disable-next-line import/no-unresolved
-import { defineConfig } from 'vitest/config'
+import { defineConfig } from "vitest/config";
 
 export default defineConfig({
   test: {
-    includeSource: ['src/**/*.ts'],
     coverage: {
-      reporter: ['text', 'json', 'html'],
+      reporter: ["text", "json", "html"],
     },
+    includeSource: ["src/**/*.ts"],
   },
-})
+});

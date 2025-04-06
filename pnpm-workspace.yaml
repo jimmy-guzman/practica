@@ -1,0 +1,6 @@
+onlyBuiltDependencies:
+  - esbuild
+savePrefix: ""
+engineStrict: true
+autoInstallPeers: false
+color: always
