@@ -6,6 +6,7 @@
     "codecov",
     "commitlint",
     "commitlintrc",
+    "esbuild",
     "gitzy",
     "lcov",
     "nums",

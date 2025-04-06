@@ -1,3 +1,0 @@
-extends: ['jimmy-guzman', 'jimmy-guzman/jest', 'jimmy-guzman/typescript']
-parserOptions:
-  project: ['./tsconfig.json']
