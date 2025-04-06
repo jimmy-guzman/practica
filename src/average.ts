@@ -11,7 +11,7 @@
  *
  * @see https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/
  */
-const average = (salary: number[]): number => {
+const average = (salary: number[]) => {
   const max = Math.max(...salary);
   const min = Math.min(...salary);
   const [sum, num] = salary.reduce(
